@@ -16,6 +16,7 @@
 		E39FFCDB2289724D0097B3BF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39FFCDA2289724D0097B3BF /* Post.swift */; };
 		E39FFCDD2289730B0097B3BF /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39FFCDC2289730B0097B3BF /* VideoTableViewCell.swift */; };
 		E39FFCE222897A9F0097B3BF /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39FFCE122897A9F0097B3BF /* Video.swift */; };
+		E3DE00BD228C5E4900780B42 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE00BC228C5E4900780B42 /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E39FFCDA2289724D0097B3BF /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		E39FFCDC2289730B0097B3BF /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		E39FFCE122897A9F0097B3BF /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		E3DE00BC228C5E4900780B42 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +64,11 @@
 		E32083D522896B1000E9DF3F /* MultipleCells */ = {
 			isa = PBXGroup;
 			children = (
-				E39FFCDE22897A5E0097B3BF /* Enum */,
-				E39FFCD6228971F60097B3BF /* Model */,
+				E39FFCE3228AD5AF0097B3BF /* Scene */,
 				E39FFCD122896C320097B3BF /* View */,
+				E39FFCD6228971F60097B3BF /* Model */,
+				E39FFCDE22897A5E0097B3BF /* Enum */,
 				E32083D622896B1000E9DF3F /* AppDelegate.swift */,
-				E32083D822896B1000E9DF3F /* ViewController.swift */,
 				E32083DA22896B1000E9DF3F /* Main.storyboard */,
 				E32083DD22896B1300E9DF3F /* Assets.xcassets */,
 				E32083DF22896B1300E9DF3F /* LaunchScreen.storyboard */,
@@ -96,8 +98,17 @@
 		E39FFCDE22897A5E0097B3BF /* Enum */ = {
 			isa = PBXGroup;
 			children = (
+				E3DE00BC228C5E4900780B42 /* FeedItem.swift */,
 			);
 			path = Enum;
+			sourceTree = "<group>";
+		};
+		E39FFCE3228AD5AF0097B3BF /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E32083D822896B1000E9DF3F /* ViewController.swift */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +187,7 @@
 				E39FFCDB2289724D0097B3BF /* Post.swift in Sources */,
 				E39FFCE222897A9F0097B3BF /* Video.swift in Sources */,
 				E39FFCDD2289730B0097B3BF /* VideoTableViewCell.swift in Sources */,
+				E3DE00BD228C5E4900780B42 /* FeedItem.swift in Sources */,
 				E39FFCD522896F430097B3BF /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

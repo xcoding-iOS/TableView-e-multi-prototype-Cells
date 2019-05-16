@@ -19,6 +19,7 @@ class VideoTableViewCell: UITableViewCell {
     @IBOutlet weak var commentAuthorImageView: UIImageView!
     @IBOutlet weak var commentTextLabel: UILabel!
     
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
